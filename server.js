@@ -37,8 +37,9 @@ app.post('/api/create-checkout-session', async (req, res) => {
         quantity: item.quantity
       })),
       mode: 'payment',
-      success_url: 'https://frontend-tienda.vercel.app/success',
-cancel_url: 'https://frontend-tienda.vercel.app/cancel',
+      success_url: 'https://frontend-tienda.vercel.app/',
+cancel_url: 'https://frontend-tienda.vercel.app/',
+
 
     });
 
